@@ -1,4 +1,4 @@
-# Documentación Final – Workflow n8n: Cálculo y carga de día de la semana (por localidad)
+#  Workflow n8n: Cálculo y carga de día de la semana (por localidad)
 
 ## Objetivo
 Automatizar la carga del **día de la semana** en un Google Sheet, tomando la **localidad** del cliente y consultando la API pública **WorldTimeAPI** para obtener el `day_of_week`.
