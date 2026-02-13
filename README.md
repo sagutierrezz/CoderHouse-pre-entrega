@@ -16,7 +16,6 @@ Al finalizar todos los registros, envía un mail notificando que el proceso term
 
 ## 1) Schedule Trigger (cada 5 minutos)
 Este nodo inicia el workflow automáticamente cada 5 minutos.  
-Su función es ejecutar el proceso de forma periódica sin intervención manual.
 
 ---
 
@@ -58,14 +57,7 @@ Este proceso se repite hasta completar todos los registros del sheet.
 ---
 
 ## 8) Email – Notificación de fin de proceso
-Cuando ya no quedan registros por procesar, se ejecuta este nodo.  
-Su objetivo es enviar un correo confirmando que el workflow finalizó correctamente.
+Cuando ya no quedan registros por procesar, se ejecuta este nodo para enviar un correo confirmando que el workflow finalizó correctamente.
 
 ---
 
-# Resultado esperado
-- Cada fila del Google Sheet queda actualizada con el día de la semana en formato texto.
-- El proceso se ejecuta automáticamente cada 5 minutos.
-- Al finalizar el total de registros, se envía un mail informando el cierre del proceso.
-
----
